@@ -1,0 +1,43 @@
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.button::first-letter {
+    text-transform: uppercase;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #fff;
+    background-color: rgb(212, 175, 105);
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover {
+    background-color: rgb(135, 234, 135);
+}
+
+.button:not(:last-child) {
+    margin-right: 10px;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.text {
+    margin: 0;
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: 0.03em;
+    color: rgb(181, 25, 25);
+}
